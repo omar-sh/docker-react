@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2d87c81e-1fb8-4292-afbe-6289c04df099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,16 +29,17 @@
         <counts>
           <entry key="Dockerfile" value="1" />
           <entry key="dev" value="2" />
+          <entry key="gitignore" value="1" />
           <entry key="js" value="3" />
-          <entry key="yml" value="1" />
+          <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Dockerfile" value="1" />
           <entry key="JavaScript" value="3" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="YAML" value="1" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -47,7 +47,7 @@
           <entry key="Dockerfile" value="200" />
           <entry key="dev" value="154" />
           <entry key="js" value="53" />
-          <entry key="yml" value="186" />
+          <entry key="yml" value="361" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -55,7 +55,7 @@
           <entry key="Dockerfile" value="200" />
           <entry key="JavaScript" value="53" />
           <entry key="PLAIN_TEXT" value="154" />
-          <entry key="YAML" value="186" />
+          <entry key="YAML" value="361" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -120,11 +120,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="207">
+              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" lean-forward="true" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -141,6 +155,7 @@
         <option value="$PROJECT_DIR$/Dockerfile.dev" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
       </list>
     </option>
   </component>
@@ -160,9 +175,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="901" />
-    <option name="y" value="192" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="565" />
+    <option name="y" value="246" />
     <option name="width" value="1440" />
     <option name="height" value="832" />
   </component>
@@ -218,17 +233,18 @@
       <updated>1564505683481</updated>
       <workItem from="1564505686054" duration="598000" />
       <workItem from="1564507716249" duration="3439000" />
-      <workItem from="1564577068108" duration="4771000" />
+      <workItem from="1564577068108" duration="5729000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8808000" />
+    <option name="totallyTimeSpent" value="9766000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="459" y="68" width="1440" height="832" extended-state="0" />
+    <frame x="565" y="246" width="1440" height="832" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -242,7 +258,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32872927" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32872927" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -300,8 +316,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="207">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-end-line="8" />
         </state>
       </provider>
     </entry>
